@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Análise de Dados com IA</title>
+</head>
+<body>
+    <h1>Enviar CSV para análise</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv">
+        <button type="submit">Enviar</button>
+    </form>
+
+    {% if result %}
+        <h2>Resultado da IA:</h2>
+        <pre>{{ result }}</pre>
+    {% endif %}
+</body>
+</html>
