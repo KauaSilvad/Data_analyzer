@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-docx
+python-pptx
+beautifulsoup4
+markdownify
+PyMuPDF
